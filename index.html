@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Simple Comment System</title>
+</head>
+<body>
+    <h1>แสดงความคิดเห็น</h1>
+    <div id="comments-container"></div>
+    <hr>
+    <h2>โพสต์คอมเมนต์ใหม่ (เพิ่มฟังก์ชัน escapeHtml ที่จะแปลงอักษรพิเศษให้เป็นข้อความธรรมดา)</h2>
+    <form id="comment-form">
+        <input type="text" id="name-input" placeholder="ชื่อ" required>
+        <textarea id="comment-input" placeholder="ความคิดเห็น" required></textarea>
+        <button type="submit">โพสต์</button>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>
